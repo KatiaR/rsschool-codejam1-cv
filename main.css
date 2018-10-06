@@ -62,3 +62,15 @@ body {
 display: flex;
   animation: slideInUp 2s;
 }
+
+.open-each-field {
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: none;
+  background-color: lightskyblue;
+}
+
+.open-each-field:hover {
+  cursor: pointer;
+}
