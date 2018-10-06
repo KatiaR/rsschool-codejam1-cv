@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+li a {
+  text-decoration: none;
+}
+
+li a i {
+  font-size: 40px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 1024px;
+  background-color: rgb(205, 255, 253);
+  padding: 15px;
+}
+
+@media (max-width: 1024px) {
+    container {
+        width: 100%;
+    }
+}
+
+.container > * {
+  display: flex;
+  width: 100%;
+}
+
+.main-photo {
+  width: 200px;
+}
+
+.summary {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 100%;
+}
+.summary-title {
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.summary-title:hover {
+    cursor: poiner;
+}
+
+.description {
+    margin: 15px;
+    display: none;
+}
+
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    visibility: visible;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.slideInUp {
+display: flex;
+  animation: slideInUp 2s;
+}
