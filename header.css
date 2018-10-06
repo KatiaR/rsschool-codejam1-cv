@@ -1,0 +1,34 @@
+li {
+  list-style-type: none;
+}
+
+li a {
+  text-decoration: none;
+}
+
+li a i {
+  font-size: 40px;
+}
+
+.main-photo {
+  width: 200px;
+}
+
+.contacts {
+  padding: 0;
+}
+
+.about {
+  padding-left: 10px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+  }
+}

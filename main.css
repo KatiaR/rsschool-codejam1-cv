@@ -3,18 +3,7 @@ body {
   padding: 0;
   display: flex;
   justify-content: center;
-}
-
-li {
-  list-style-type: none;
-}
-
-li a {
-  text-decoration: none;
-}
-
-li a i {
-  font-size: 40px;
+  font-family: "Roboto", "Arial", sans-serif;
 }
 
 .container {
@@ -22,7 +11,7 @@ li a i {
   flex-direction: column;
   width: 1024px;
   background-color: rgb(205, 255, 253);
-  padding: 15px;
+  padding: 0 15px;
 }
 
 @media (max-width: 1024px) {
@@ -34,31 +23,28 @@ li a i {
 .container > * {
   display: flex;
   width: 100%;
-}
-
-.main-photo {
-  width: 200px;
+  margin: 10px 0;
 }
 
 .summary {
-    display: flex;
-    flex-direction: column;
-    border: 1px solid black;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 100%;
 }
 .summary-title {
-    margin: 15px;
-    display: flex;
-    justify-content: space-between;
+  margin: 15px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .summary-title:hover {
-    cursor: poiner;
+  cursor: poiner;
 }
 
 .description {
-    margin: 15px;
-    display: none;
+  margin: 15px;
+  display: none;
 }
 
 @keyframes slideInUp {
