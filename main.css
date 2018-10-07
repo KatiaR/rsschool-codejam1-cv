@@ -32,6 +32,11 @@ body {
   border: 1px solid black;
   width: 100%;
 }
+
+.summary:hover {
+    cursor: pointer;
+}
+
 .summary-title {
   margin: 15px;
   display: flex;
